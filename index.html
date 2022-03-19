@@ -20,8 +20,8 @@
 
         <!--About user-->
         <div class="about">
+            <h1 class="about-name">Iryna Moiseieva</h1>
             <h2 class="about-position">Junior Front-End Developer</h2>
-            <h1 class="about-name">Iryna Moiseiva</h1>
             <p class="about-description">Hello, I'm from Ukraine.<br>
             I successfully mastered the HTML/CSS course, made my personal pet-project, and also took part
             in a team project for site layout.<br>
@@ -35,19 +35,25 @@
 
         <!--Projects-->
         <div class="projects">
-            <h3 class="title">Projects</h3>
+            <h3 class="title">Project Experience</h3>
             <ol class="projects-list">
                 <li class="projects-item">
-                    <span class="project"><a href="https://iryna-moiseieva.github.io/goit-markup-hw-08/" class="project-link">https://iryna-moiseieva.github.io/goit-markup-hw-08/</a>
-                        .....................
-                        <span class="project-bracket"> [</span>
-                        HTML5, CSS3 <span class="project-bracket">]</span></span>
+                    <ul class="list projects-list__discr">
+                        <li class="project-type">Project name: <a href="https://iryna-moiseieva.github.io/goit-markup-hw-08/" class="project-link">https://iryna-moiseieva.github.io/goit-markup-hw-08/</a></li>
+                        <li class="project-type">Project link: <a href="https://github.com/Iryna-Moiseieva/goit-markup-hw-08" class="project-link">https://github.com/Iryna-Moiseieva/goit-markup-hw-08</a></li>
+                        <li class="project-type">Technologies: <span class="project-type__accent">HTML5, CSS3, SASS, BEM, Git, JavaScript, Figma</span></li>
+                        <li class="project-description"> This is my personal project as part of the HTML5/CSS3 course. During the project, I used BEM technology, the SASS
+                        preprocessor and put into practice the knowledge I had gained on the implementation of adaptive and responsive layout.</li>
+                    </ul>
                 </li>
                 <li class="projects-item">
-                    <span class="project"><a href="https://richardditrix.github.io/goit-project-team7/" class="project-link">https://richardditrix.github.io/goit-project-team7/</a>
-                        ................................
-                        <span class="project-bracket"> [</span>
-                        HTML5, CSS3 <span class="project-bracket">]</span></span>
+                    <ul class="list projects-list__discr">
+                        <li class="project-type">Project name - <a href="https://richardditrix.github.io/goit-project-team7/" class="project-link">https://richardditrix.github.io/goit-project-team7/</a></li>
+                        <li class="project-type">Project link - <a href="https://github.com/RichardDitrix/goit-project-team7" class="project-link">https://github.com/RichardDitrix/goit-project-team7</a></li>
+                        <li class="project-type">Technologies - <span class="project-type__accent">HTML5, CSS3, SASS, BEM, Git, JavaScript, Figma</span></li>
+                        <li class="project-description">This is a group project of the HTML5/CSS3 course that I participated in as a team member. I was responsible for the
+                        Advantages section, a Modal-form for ordering goods. I enhanced teamwork skills.</li>
+                    </ul>
                 </li>
             </ol>
         </div>
@@ -85,7 +91,7 @@
         <!--Education-->
         <div class="education">
             <h3 class="title">Education</h3>
-            <h4 class="name-university">GoIT</h4>
+            <h4 class="name-university">GoIT - start your career in IT</h4>
             <h4 class="name-degree">Full-Stack Developer</h4>
             <p class="period">September 2021 - June 2022 <span class="line">|</span> Kharkiv, Ukraine</p>
         </div>
@@ -99,53 +105,52 @@
     <!--Sidebar-->
     <aside class="sidebar">
         <img src="img/photo.jpg" alt="user photo" class="photo">
-        <!-- Location -->
-        <div class="sidebar-container">
-            <h3 class="sidebar-title">Location</h3>
-            <ul class="sidebar-list">
-                <li class="sidebar-item"><span class="sidebar-text">Opole, Poland</span></li>
-            </ul>
-        </div>
+        
         <!--Contacts-->
         <div class="sidebar-container">
             <h3 class="sidebar-title">Contacts</h3>
-            <div>
-                <p> 
-                    <span class="contact-type">C:</span>
-                        <a href="tel:+380979938541" class="contact-link">+380979938541 (Telegram) </a>
-                        </p>
-                <p> 
-                    <span class="contact-type">E:</span>
-                    <a href="mailto:arristotell8@gmail.com" class="contact-link">arristotell8@gmail.com</a>
-                    </p>               
-            </div>
+            <ul class="sidebar-list">
+                <li class="sidebar-item"><a href="tel:+380979938541" class="link sidebar-text">+380979938541 (Telegram) </a></li>
+                <li class="sidebar-item"><a href="mailto:arristotell8@gmail.com" class="link sidebar-text">arristotell8@gmail.com</a></li>
+                <li class="sidebar-item"><a href="linkedin.com/in/iryna-moiseieva-1572b222a" class="link sidebar-text">linkedin.com/in/iryna-moiseieva-1572b222a</a></li>
+                <li class="sidebar-item"><a href="https://github.com/Iryna-Moiseieva" class="link sidebar-text">https://github.com/Iryna-Moiseieva</a></li>
+                <li class="sidebar-item"><a href="https://goo.gl/maps/uYjrt3LYUkPycq6G9" class="link sidebar-text" target="_blank" rel="noreferrer noopener">Opole, Poland</a></li>
+            </ul>
         </div>
         <!--Tech skills-->
         <div class="sidebar-container">
             <h3 class="sidebar-title">Tech Skills</h3>
             <ul class="sidebar-list">
                 <li class="sidebar-item"><span class="sidebar-text">HTML5</span></li>
-                <li class="sidebar-item"><span class="sidebar-text">CSS3</span></li>           
-                <li class="sidebar-item"><span class="sidebar-text">GIT</span></li>          
-                <li class="sidebar-item"><span class="sidebar-text">JavaScript</span></li>           
+                <li class="sidebar-item"><span class="sidebar-text">CSS3</span></li>
+                <li class="sidebar-item"><span class="sidebar-text">SASS</span></li>
+                <li class="sidebar-item"><span class="sidebar-text">BEM</span></li>
+                <li class="sidebar-item"><span class="sidebar-text">Git</span></li>          
+                <li class="sidebar-item"><span class="sidebar-text">JavaScript</span></li>
+                <li class="sidebar-item"><span class="sidebar-text">Figma</span></li>
+                <li class="sidebar-item"><span class="sidebar-text">Scrum</span></li>
+                <li class="sidebar-item"><span class="sidebar-text">Agile</span></li>
             </ul>
         </div>
         <!--Soft skills-->
         <div class="sidebar-container">
             <h3 class="sidebar-title">Soft Skills</h3>
             <ul class="sidebar-list">
-                <li class="sidebar-item"><span class="sidebar-text">Scrum</span></li>
-                <li class="sidebar-item"><span class="sidebar-text">Agile</span></li>
-                <li class="sidebar-item"><span class="sidebar-text">Teamwork</span></li>
+                <li class="sidebar-item"><span class="sidebar-text">Diligent</span></li>
+                <li class="sidebar-item"><span class="sidebar-text">Organized</span></li>
+                <li class="sidebar-item"><span class="sidebar-text">Self-motivated</span></li>
+                <li class="sidebar-item"><span class="sidebar-text">Willingness to learn</span></li>
+                <li class="sidebar-item"><span class="sidebar-text">Ability to work efficiently both individually and in a team</span></li>
             </ul>
         </div>
         <!-- Language -->
         <div class="sidebar-container">
             <h3 class="sidebar-title">Language</h3>
             <ul class="sidebar-list">
-                <li class="sidebar-item"><span class="sidebar-text">English (upper-intermediate)</span></li>
-                <li class="sidebar-item"><span class="sidebar-text">Polish (elementary)</span></li>
-                <li class="sidebar-item"><span class="sidebar-text">Ukrainian, Russian (native)</span></li>
+                <li class="sidebar-item"><span class="sidebar-text">English - upper-intermediate</span></li>
+                <li class="sidebar-item"><span class="sidebar-text">Polish - elementary</span></li>
+                <li class="sidebar-item"><span class="sidebar-text">Ukrainian - native</span></li>
+                <li class="sidebar-item"><span class="sidebar-text">Russian - advanced</span></li>
             </ul>
         </div>
     </aside>
