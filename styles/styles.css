@@ -1,6 +1,21 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
-  /* background-color: #e5e5e5; */
+  color: #595959;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  background-color: #e5e5e5;
 }
 
 .list {
@@ -27,29 +42,18 @@ body {
 .about {
   margin-bottom: 40px;
 }
-.about-name {
+.about-name,
+.about-position {
   color: #000000;
-  font-style: normal;
   font-weight: bold;
   font-size: 45px;
   line-height: 55px;
   margin-bottom: 25px;
 }
 .about-position {
-  color: #000000;
-  font-style: normal;
-  font-weight: bold;
   font-size: 22px;
   line-height: 17px;
   margin-bottom: 20px;
-}
-.about-description,
-.project-description {
-  color: #595959;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
 }
 
 /* projects styles */
@@ -58,101 +62,65 @@ body {
 }
 .title {
   color: #000000;
-  font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .projects-list {
   padding: 0px;
   margin-left: 15px;
 }
 .projects-item {
-  color: #000000;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
   margin-bottom: 20px;
 }
-.projects,
+
 .project-link {
-  color: #595959;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  color: inherit;
 }
 .project-link {
   margin-left: 10px;
 }
 
 /* work styles */
-.work {
+.work,
+.period {
   margin-bottom: 20px;
 }
 
 /* education styles */
-.work-position {
+.work-position,
+.organization,
+.name-university {
   color: #000000;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 10px;
+  margin: 0px;
 }
-.organization {
+.work-experience {
+  color: #000000;
+  font-weight: bold;
+}
+.organization,
+.name-university {
   color: #fb6d3a;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
 }
-.period {
-  color: #a8a8a8;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
-  margin-bottom: 10px;
-}
+
 .line {
   color: #000000;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
 }
 .work-list {
   padding: 0px;
   margin-left: 20px;
 }
-.work-list-item {
-  color: #595959;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-}
+
 .education {
-  margin-bottom: 45px;
+  margin-bottom: 20px;
 }
-.name-university {
-  color: #fb6d3a;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  margin-bottom: 10px;
-}
+
 .name-degree {
   color: #000000;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-  margin-bottom: 10px;
 }
 
 /* sidebar styles */
@@ -171,19 +139,14 @@ body {
 }
 .sidebar-title {
   color: #ffffff;
-  font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
   margin-bottom: 10px;
 }
-.contact-type {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
-  color: #ffffff;
-  margin-right: 10px;
+
+.sidebar-contacts {
+  margin-left: 10px;
 }
 
 .sidebar-list {
@@ -195,10 +158,10 @@ body {
 .project-type__accent {
   color: #fb6d3a;
 }
+
+.sidebar-item {
+  margin: 0px;
+}
 .sidebar-text {
   color: #ffffff;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
 }
